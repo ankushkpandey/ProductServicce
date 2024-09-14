@@ -37,7 +37,7 @@ public class ProductController {
 
     @GetMapping("/{id}")
     public String getSingleProduct(@PathVariable("id") Long id){
-        return "Your Product ID is " + id;
+        return "Your Product ID is  " + id;
     }
 
     @DeleteMapping("/{id}")
